@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 2954866}
   - component: {fileID: 2954865}
   - component: {fileID: 2954864}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "Ch\xE3o"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10418,7 +10418,7 @@ SpringJoint2D:
   m_Anchor: {x: 0, y: 0}
   m_ConnectedAnchor: {x: 5.573123, y: 0.80743253}
   m_AutoConfigureDistance: 1
-  m_Distance: 4.191129
+  m_Distance: 3.6382973
   m_DampingRatio: 0
   m_Frequency: 4
 --- !u!50 &973588379
@@ -10554,7 +10554,7 @@ Transform:
   m_GameObject: {fileID: 973588377}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.72, y: 0.2, z: 0}
+  m_LocalPosition: {x: 9.17, y: 0.26, z: 0}
   m_LocalScale: {x: 0.3501498, y: 0.3501498, z: 0.3501498}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10947,8 +10947,8 @@ Transform:
   m_GameObject: {fileID: 1149937903}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.69, y: -3.32, z: 0}
-  m_LocalScale: {x: 5.2811036, y: 5.2811036, z: 2.8209515}
+  m_LocalPosition: {x: -11.8293, y: -3.5274, z: 0}
+  m_LocalScale: {x: 4.6331124, y: 4.6331124, z: 2.4748209}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -11032,6 +11032,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 10
+  JumpForce: 19
+  isJumping: 0
+  doubleJump: 0
 --- !u!50 &1149937909
 Rigidbody2D:
   serializedVersion: 4
@@ -11058,7 +11061,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!4 &1152793326 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2881642793107713054, guid: 7bdc669fff329af41971a9a60465dcae, type: 3}
@@ -12807,7 +12810,7 @@ GameObject:
   - component: {fileID: 1912561115}
   - component: {fileID: 1912561114}
   - component: {fileID: 1912561113}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "Ch\xE3o 2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
