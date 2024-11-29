@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public bool isJumping;
     public bool doubleJump;
 
+
     private Rigidbody2D rig;
     private Animator anim;
     // Start is called before the first frame update
@@ -65,7 +66,7 @@ public class Player : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision){
         if(collision.gameObject.layer == 8){
             isJumping =false;
-            anim.SetBool("Jump", true);
+            anim.SetBool("Jump", false);
         }
     }
 

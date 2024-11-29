@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3000550450117939360}
   - component: {fileID: 4860371720414625852}
   - component: {fileID: 451372120164333301}
+  - component: {fileID: -4600714246241943019}
   m_Layer: 0
   m_Name: Moeda
   m_TagString: Untagged
@@ -120,3 +121,15 @@ CircleCollider2D:
   m_Offset: {x: 0.071704865, y: 0.051705003}
   serializedVersion: 2
   m_Radius: 1.3360176
+--- !u!114 &-4600714246241943019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3422233303512567432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4b1b3c5e0941f40802c4430f306712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
