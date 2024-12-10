@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coletaveis
+  - Espinhos
+  - BolaEspinho
+  - Princesa
   layers:
   - Default
   - TransparentFX

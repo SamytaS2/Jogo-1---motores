@@ -68,10 +68,31 @@ public class Player : MonoBehaviour
             isJumping =false;
             anim.SetBool("Jump", false);
         }
+
+        if(collision.gameObject.tag == "Espinhos"){
+            GameController.instance.ShowGameOver();
+            //Destroy(gameObject);
+        }
+
+        if(collision.gameObject.tag == "BolaEspinho"){
+            GameController.instance.ShowGameOver();
+            //Destroy(gameObject);
+        }
+
+        if(collision.gameObject.tag == "Princesa"){
+           GameController.instance.ExibirMsgFinal(); 
+
+
+
+
+
+
+           //so pra ver o que acontece
+        }
     }
 
     void OnCollisionExit2D(Collision2D collision){
-         if(collision.gameObject.layer == 8){
+        if(collision.gameObject.layer == 8){
             isJumping = true;
         }
     }
