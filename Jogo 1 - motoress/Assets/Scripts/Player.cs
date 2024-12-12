@@ -81,13 +81,7 @@ public class Player : MonoBehaviour
 
         if(collision.gameObject.tag == "Princesa"){
            GameController.instance.ExibirMsgFinal(); 
-
-
-
-
-
-
-           //so pra ver o que acontece
+           //Destroy(gameObject);
         }
     }
 
