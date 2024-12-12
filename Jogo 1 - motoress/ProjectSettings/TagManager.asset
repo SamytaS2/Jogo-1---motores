@@ -5,8 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coletaveis
+<<<<<<< Updated upstream
   - Espinhos
   - BolaEspinho
+=======
+>>>>>>> Stashed changes
   - Princesa
   layers:
   - Default
