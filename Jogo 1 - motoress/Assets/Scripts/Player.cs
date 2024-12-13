@@ -71,17 +71,17 @@ public class Player : MonoBehaviour
 
         if(collision.gameObject.tag == "Espinhos"){
             GameController.instance.ShowGameOver();
-            //Destroy(gameObject);
+            Destroy(gameObject);
         }
 
         if(collision.gameObject.tag == "BolaEspinho"){
             GameController.instance.ShowGameOver();
-            //Destroy(gameObject);
+            Destroy(gameObject);
         }
 
         if(collision.gameObject.tag == "Princesa"){
            GameController.instance.ExibirMsgFinal(); 
-           //Destroy(gameObject);
+           Destroy(gameObject);
         }
     }
 
